@@ -80,12 +80,10 @@ There will be 3 exams that are based on the lectures and programming assignments
 * A: 94 to 100
 * A-: 90 to 93
 * B+: 85 to 89
-* B: 80 to 84 
-** Graduate students will receive NC (No Credit) for scores below 80 **
+* B: 80 to 84 **Graduate students will receive NC (No Credit) for scores below 80**
 * B-: 77 to 79
 * C+: 74 to 76
-* C: 70 to 73 
-** Undergraduates will receive NC (No Credit) for scores below 70 **
+* C: 70 to 73 **Undergraduates will receive NC (No Credit) for scores below 70**
 
 ## ADA Statement
 
