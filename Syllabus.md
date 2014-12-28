@@ -68,10 +68,10 @@ Additionally, students are recommended to have taken or currently taking these c
 
 There will be 3 exams that are based on the lectures and programming assignments. The course will also include 4 programming assignments and a final project.
 
-1. Homework (4) - 40 points
-2. Exams (2) - 20 points
-3. Final Exam  - 20 points
-4. Project - 20 points
+- Homework (4) - 40 points
+- Exams (2) - 20 points
+- Final Exam  - 20 points
+- Project - 20 points
 
 **Final Project** Throughout this quarter we will be building a course project. This project is a cumulation of the homework assignments.  **Successful completion of the course project is a requirement for passing this course.**
 
