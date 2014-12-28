@@ -2,7 +2,7 @@
 
 ## Programming with Data Structure Winter 2015
 
-Please refer to the [syllabus]() for more information about the course.  
+Please refer to the [syllabus](https://github.com/csula/cs203-winter-2015/blob/master/Syllabus.md) for more information about the course.  
 
 ## Homework 1
 
