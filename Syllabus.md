@@ -8,12 +8,6 @@ This course focuses on the following: advanced programming techniques; elementar
 - **Lecture** Saturday 10:00 AM - 1:00 PM @ ET A220
 - **Office Hours** Saturday 5:15 PM - 6:15 PM, Sunday 1:15 PM - 3:00 PM or by appointment
 
-## Text Book
-
-- Required: Liang, Y. Daniel Introduction to Java Programming. Paper and Kindle Editions on Amazon.
-- Recommended: Java Code Conventions. This is the official Java coding convention from Oracle.
-- Recommended: How to Write Doc Comments for the Javadoc Tool. This is the official HOWTO documentation writing guideline from Oracle.
-
 ## Course Goals
 
 The Student Learning Outcomes that are addressed by the course are:
@@ -45,16 +39,61 @@ Other outcomes of instruction: At the end of the course students are able to:
 - Multithreading (Optional)
 - Basic network programming (Optional)
 
+## Requirements
+
+### Prequisites
+
+In general, students should be familiar with Java programming and have a basic understanding of object-oriented programming. Students must have already taken the following courses:
+
+- CS201
+- CS202
+
+Additionally, students are recommended to have taken or currently taking these courses:
+
+- Math207
+- Math248
+
+### Textbook
+
+- Required: Liang, Y. Daniel Introduction to Java Programming. [Paper and Kindle Editions on Amazon](http://www.amazon.com/Introduction-Programming-Comprehensive-Version-Edition-ebook/dp/B00HNZ4K1U/ref=dp_kinw_strp_1).
+- Recommended: [Java Code Conventions](http://www.oracle.com/technetwork/java/codeconventions-150003.pdf). This is the official Java coding convention from Oracle.
+- Recommended: [How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html). This is the official HOWTO documentation writing guideline from Oracle.
+
+### Software
+
+- Required: [Java Development Kit, Standard Edition](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Required: [Eclipse For Java EE Developers or Eclipse Classic](http://www.eclipse.org/downloads)
+
 ## Grading Allocation
 
 There will be 3 exams that are based on the lectures and programming assignments. The course will also include 4 programming assignments and a final project.
 
 1. Homework (4) - 40 points
-2. Exam (2) - 20 points
-3. Final Exam (1) - 20 points
-4. Project (1) - 20 points
+2. Exams (2) - 20 points
+3. Final Exam  - 20 points
+4. Project - 20 points
 
-**Final Project** Successful completion of the course project is a requirement for passing this course.
+**Final Project** Throughout this quarter we will be building a course project. This project is a cumulation of the homework assignments.  **Successful completion of the course project is a requirement for passing this course.**
+
+## Grading Scale
+
+* A: 94 to 100
+* A-: 90 to 93
+* B+: 85 to 89
+* B: 80 to 84 
+** Graduate students will receive NC (No Credit) for scores below 80 **
+* B-: 77 to 79
+* C+: 74 to 76
+* C: 70 to 73 
+** Undergraduates will receive NC (No Credit) for scores below 70 **
+
+## ADA Statement
+
+Reasonable accommodation will be provided to any student who is registered with the Office of Students with Disabilities and requests needed accommodation.
+
+## Academic Integrity
+
+Cheating on assignments and exams will not be tolerated. All parties involved will receive a grade of F for the course and be reported to the Computer Science Department.
 
 ## Course Schedule
 
