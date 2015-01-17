@@ -3,7 +3,7 @@
 
 ## lab 1.1
 
-* Create a balloon class that encapsulates the states and behaviors of a balloon:
+* Create a balloon class that encapsulates the states and behaviors of a balloon
 ** Float (behavior)
 ** Has a color (state)
 ** Has position (state)
