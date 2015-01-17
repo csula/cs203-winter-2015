@@ -2,6 +2,8 @@ package edu.calstatela.cs203.lab01;
 
 public class Balloon {
 
+	static int balloonCounts = 0;
+	
 	private final int R;
 	private final int G;
 	private final int B;
@@ -11,6 +13,8 @@ public class Balloon {
 
 	private double vx;
 	private double vy;
+	
+	private double radius;
 
 	private boolean exist;
 
@@ -24,13 +28,31 @@ public class Balloon {
 		y = randomPosition();
 		vx = randomVelocity();
 		vx = randomVelocity();
+		radius = randomRadius();
 		exist = true;
+		balloonCounts++;
 	}
 
 	/* accessors */
 	
+	public String toString() {
+		String buffer = "";
+		buffer += "(x,y) = (" + x + "," + y + ") ";
+		buffer += "(R,G,B) = (" + R + "," + G + "," + B + ")";
+		return buffer;
+	} 
+	
+	private double randomRadius() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public boolean isExist() {
 		return exist == true;
+	}
+	
+	public void print() {
+		System.out.println("(x,y) = (" + x + "," + y + ")");
 	}
 	
 	/* mutators */
@@ -45,8 +67,7 @@ public class Balloon {
 	}
 
 	private int randomPosition() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (int) (Math.random() * 200);
 	}
 
 	private int randomColor() {
@@ -56,8 +77,16 @@ public class Balloon {
 	/* main method */
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		final int N = 10; 
+		Balloon[] balloons = new Balloon[N]; // 10 references to Balloons
+		
+		for (int i = 0; i < N; i++) {
+			balloons[i] = new Balloon();
+		}
+		
+		for (int i = 0; i < N; i++) {
+			System.out.println(balloons[i]);
+		}
 	}
 
 }
