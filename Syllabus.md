@@ -97,23 +97,23 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* **1/9/2015** (lecture 1) Welcome to CS202/CS203
-* **1/17/2015** (lecture 2) Review: Objects and Classes
-* **1/18/2015** (lecture 3) Review: Inheritance and Polymorphism
-* **1/24/2015** (lecture 4) Review: Exception Handling
-* **1/25/2015** (lecture 5) Review: Event-Driven Programming
-* **1/31/2015** (lecture 6) Exam 1: Object-Oriented Programming Theory and Practice
-* **2/1/2015** (lecture 7) Recursion
-* **2/13/2015** (lecture 8: class time TBD) Generics
-* **2/14/2015** (lecture 9) Lists, Stacks, and Queues
-* **2/15/2015** (lecture 10) Sets and Maps
-* **2/20/2015** (lecture 11: class time TBD) Developing Efficient Algorithms
-* **2/21/2015** (lecture 12) Exam 2: Data Structure Programming Theory and Practice
-* **2/22/2015** (lecture 13) Implementation of a Linked-List
-* **2/28/2015** (lecture 14) Sorting
-* **3/1/2015** (lecture 15) Binary Trees
-* **3/6/2015** (lecture 16: class time TBD) Hashing
-* **3/13/2015** (lecture 17) Graphs
-* **3/14/2015** (lecture 18) Multithreading
-* **3/15/2015** Final Exam
-* **3/21/2015** Final Presentation
+* Lecture 01: **1/9/2015** Welcome to CS202/CS203
+* Lecture 02: **1/17/2015** Review: Objects and Classes
+* Lecture 03: **1/18/2015** Review: Inheritance and Polymorphism
+* Lecture 04: **1/24/2015** Review: Exception Handling
+* Lecture 05: **1/25/2015** Review: Event-Driven Programming
+* Exam 1: **1/31/2015** Object-Oriented Programming Theory and Practice
+* Lecture 06: **2/1/2015**  Recursion
+* Lecture 07: **2/13/2015** (class time TBD) Generics
+* Lecture 08: **2/14/2015** Lists, Stacks, and Queues
+* Lecture 09: **2/15/2015** Sets and Maps
+* Lecture 10: **2/20/2015** (class time TBD) Developing Efficient Algorithms
+* Exam 2: **2/21/2015** Exam 2: Data Structure Programming Theory and Practice
+* Lecture 11: **2/22/2015** Implementation of a Linked-List
+* Lecture 12: **2/28/2015** Sorting
+* Lecture 13: **3/1/2015** Binary Trees
+* Lecture 14: **3/6/2015** (class time TBD) Hashing
+* Lecture 15: **3/13/2015** Graphs
+* Lecture 16: **3/14/2015** Multithreading
+* Exam 3: **3/15/2015** Final Exam includes theory and programming
+* Presentation: **3/21/2015** Project Presentation
