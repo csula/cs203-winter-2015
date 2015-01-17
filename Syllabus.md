@@ -97,4 +97,25 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
+* **1/9/2015** (lecture 1) Welcome to CS202/CS203
+* **1/17/2015** (lecture 2)
+* **1/18/2015** (lecture 3)
+* **1/24/2015** (lecture 4)
+* **1/25/2015** (lecture 5)
+* **1/31/2015** (lecture 6)
+* **2/1/2015** (lecture 7)
+* **2/13/2015** (lecture 8: class time TBD)
+* **2/14/2015** (lecture 9)
+* **2/15/2015** (lecture 10)
+* **2/20/2015** (lecture 11: class time TBD)
+* **2/21/2015** (lecture 12)
+* **2/22/2015** (lecture 13)
+* **2/28/2015** (lecture 14)
+* **3/1/2015** (lecture 15)
+* **3/6/2015** (lecture 16: class time TBD)
+* **3/13/2015** (lecture 17)
+* **3/14/2015** (lecture 18)
+* **3/15/2015** Final Exam
+
+
 * Final Presentation.  More information follow.
