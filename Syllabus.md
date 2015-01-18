@@ -5,8 +5,8 @@ This course focuses on the following: advanced programming techniques; elementar
 ## Logistics
 
 - **Instructor** John J. Tran
-- **Lecture** Saturday 10:00 AM - 1:00 PM @ ET A220
-- **Office Hours** Saturday 5:15 PM - 6:15 PM, Sunday 1:15 PM - 3:00 PM or by appointment
+- **Lecture** Saturday 8:00 AM - 1:00 PM @ ET A220
+- **Office Hours** Saturday 5:15 PM - 6:15 PM or by appointment
 
 ## Course Goals
 
@@ -97,23 +97,17 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 01: **1/9/2015** Welcome to CS202/CS203
-* Lecture 02: **1/17/2015** Review: Objects and Classes
-* Lecture 03: **1/18/2015** Review: Inheritance and Polymorphism
-* Lecture 04: **1/24/2015** Review: Exception Handling
-* Lecture 05: **1/25/2015** Review: Event-Driven Programming
-* Exam 1: **1/31/2015** Object-Oriented Programming Theory and Practice
-* Lecture 06: **2/1/2015**  Recursion
-* Lecture 07: **2/13/2015** (class time TBD) Generics
-* Lecture 08: **2/14/2015** Lists, Stacks, and Queues
-* Lecture 09: **2/15/2015** Sets and Maps
-* Lecture 10: **2/20/2015** (class time TBD) Developing Efficient Algorithms
-* Exam 2: **2/21/2015** Exam 2: Data Structure Programming Theory and Practice
-* Lecture 11: **2/22/2015** Implementation of a Linked-List
-* Lecture 12: **2/28/2015** Sorting
-* Lecture 13: **3/1/2015** Binary Trees
-* Lecture 14: **3/6/2015** (class time TBD) Hashing
-* Lecture 15: **3/13/2015** Graphs
-* Lecture 16: **3/14/2015** Multithreading
-* Exam 3: **3/15/2015** Final Exam includes theory and programming
-* Presentation: **3/21/2015** Project Presentation
+* Meeting 01: **1/9/2015** Welcome to CS202/CS203
+* Meeting 02: **1/17/2015** Lecture: Objects and Classes
+* Meeting 03: **1/18/2015** Lecture: Inheritance and Polymorphism
+* Meeting 04: **1/24/2015** Lecture: Exception Handling and Event-Driven Programming
+* Meeting 05: **1/31/2015** Exam 1: Object-Oriented Programming Theory and Practice and Lecture: Recursion
+* Meeting 06: **2/13/2015** Lecture: Generics (class time TBD) 
+* Meeting 07: **2/14/2015** Lecture: Lists, Stacks, Queues, Sets and Maps
+* Meeting 08: **2/20/2015** Lecture: Developing Efficient Algorithms (class time TBD) 
+* Meeting 09: **2/21/2015** Exam 2: Data Structure Programming Theory and Practice and Lecture: Implementation of a Linked-List
+* Meeting 10: **2/28/2015** Lecture: Sorting and Binary Trees
+* Meeting 11: **3/6/2015** Lecture:Hashing (class time TBD) 
+* Meeting 12: **3/13/2015** Lecture: Graphs and Multithreading
+* Meeting 13: **3/15/2015** Exam3: Final Exam includes theory and programming
+* Meeting 14: **3/21/2015** Project Presentation
