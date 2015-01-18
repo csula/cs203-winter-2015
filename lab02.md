@@ -9,16 +9,16 @@
 # lab 2.2
 
 * Design a `Game` class that:
-  * Can `play()`
+  * Can `start()` `stop()` and `pause()`
   * Change score
   * Has integer score
   * Has player's name
 * Extend (inherit) the `Game` class
   * Create a `BalloonGame` class
-  * Implement special actions for `play()`
-    * Drift the balloon infinitely
-    * Pause 1 second between each drift
-    * Print the contents of each instance of the balloon
+  * Implement three actions: `play()` `pause()` and `stop()`
+  * Drift the balloon infinitely
+  * Pause 1 second between each drift
+  * Print the contents of each instance of the balloon
 
 # lab 2.3
 * Update the errors in `BalloonGame` to make sure that it actually does something...
