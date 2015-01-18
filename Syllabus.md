@@ -102,12 +102,12 @@ The schedule below is tentative and is subject to change.
 * Meeting 03: **1/18/2015** Lecture: Inheritance and Polymorphism
 * Meeting 04: **1/24/2015** Lecture: Exception Handling and Event-Driven Programming
 * Meeting 05: **1/31/2015** Exam 1: Object-Oriented Programming Theory and Practice and Lecture: Recursion
-* Meeting 06: **2/13/2015** Lecture: Generics (class time TBD) 
+* Meeting 06: **2/12/2015** Lecture: Generics (class time TBD) 
 * Meeting 07: **2/14/2015** Lecture: Lists, Stacks, Queues, Sets and Maps
-* Meeting 08: **2/20/2015** Lecture: Developing Efficient Algorithms (class time TBD) 
+* Meeting 08: **2/19/2015** Lecture: Developing Efficient Algorithms (class time TBD) 
 * Meeting 09: **2/21/2015** Exam 2: Data Structure Programming Theory and Practice and Lecture: Implementation of a Linked-List
 * Meeting 10: **2/28/2015** Lecture: Sorting and Binary Trees
-* Meeting 11: **3/6/2015** Lecture:Hashing (class time TBD) 
+* Meeting 11: **3/5/2015** Lecture:Hashing (class time TBD) 
 * Meeting 12: **3/13/2015** Lecture: Graphs and Multithreading
 * Meeting 13: **3/15/2015** Exam3: Final Exam includes theory and programming
 * Meeting 14: **3/21/2015** Project Presentation
