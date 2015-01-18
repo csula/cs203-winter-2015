@@ -18,4 +18,5 @@
   * Implement special actions for `play()`
     * Drift the balloon infinitely
     * Pause 1 second between each drift
+    * Print the contents of each instance of the balloon
 
