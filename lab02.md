@@ -20,3 +20,5 @@
     * Pause 1 second between each drift
     * Print the contents of each instance of the balloon
 
+# lab 2.3
+* Update the errors in `BalloonGame` to make sure that it actually does something...
