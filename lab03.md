@@ -11,3 +11,7 @@ Implement a `Stack` class using `ArrayList` as the internal storage container an
 # lab 3.3
 
 Let us create an array of `Balloon` called `balloons` of size `N`.  What happens when you try to access `balloons[N]`?  What is the proper way to handle this error?
+
+# lab 3.4
+
+Put together a layout that contains a canvas and three buttons.  On the canvas, draw your balloons.  The buttons are bound to three actions: `start`, `stop`, and `pause` -- for now these buttons don't have to do anything special other than to print out their actions.
