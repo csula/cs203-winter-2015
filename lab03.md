@@ -15,3 +15,7 @@ Let us create an array of `Balloon` called `balloons` of size `N`.  What happens
 # lab 3.4
 
 Put together a layout that contains a canvas and three buttons.  On the canvas, draw your balloons.  The buttons are bound to three actions: `start`, `stop`, and `pause` -- for now these buttons don't have to do anything special other than to print out their actions.
+
+# lab 3.5
+
+Put together a GUI program that mimics slide #34 (the microwave).
