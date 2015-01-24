@@ -19,3 +19,7 @@ Put together a layout that contains a canvas and three buttons.  On the canvas, 
 # lab 3.5
 
 Put together a GUI program that mimics slide #34 (the microwave).
+
+# lab 3.6
+
+On your canvas, draw your balloons using information from the `balloons` array.
