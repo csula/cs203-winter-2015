@@ -6,4 +6,4 @@ Consider slide 45 from chapter 11.  Redo so that it's cleaner and easier to unde
 
 # lab 3.2
 
-Implement a `Stack` class using `ArrayList` as the internal storage container and use the methods described on slide 47 of chapter 11.
+Implement a `Stack` class using `ArrayList` as the internal storage container and use the methods described on slide 47 of chapter 11.  Validate your code with a stack of `Balloon` objects being added in your `main()` method.
