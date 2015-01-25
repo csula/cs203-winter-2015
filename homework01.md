@@ -12,6 +12,12 @@ Your GUI program should meet the following requirements:
 2. The balloons should have autonomous movements.
 3. Your program will need to use a `timer` class to asynchronously move the balloons around.
 
+**Hint**: Don't worry about collision detection until you have successfully gotten the balloons to animate.
+
+## Game play
+
+When you launch the game the balloons are drawn to the screen and remain stationary.  Once the game has started the balloons will start drifting.  Note that the balloons can drift in any directions.  The player will now move the mouse over the balloon.  Each the player successfully shoots down a balloon, the balloon is 'removed' from the game (change status?).  The player will have a limited time to shoot down all of the balloon.  Once the timer has expired the total number of balloons are tallied and a score is displayed.
+
 ## What to turn in
 
 You will demo the game in class.  However, you must also submit the source code to the csns homework 1 submission page.  
