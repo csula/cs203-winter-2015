@@ -9,3 +9,7 @@
 # lab 4.2 
 
 1. Create a `TimerDemo` class that prints to the console `I am alive` every 5 seconds after then `start` button has been pressed and stop printing when the `stop` button is pressed.
+
+# lab 4.3
+
+1. Update `GameBoard` to change the color of the balloon every 5 seconds
