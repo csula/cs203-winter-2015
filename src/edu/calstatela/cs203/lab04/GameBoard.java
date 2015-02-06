@@ -67,11 +67,11 @@ public class GameBoard {
 			System.out.println("x = " + x + " y = " + y);
 		}
 
+    /* these mouse events are not really doing anything right now */
 		public void mouseEntered(MouseEvent event) {	}
 		public void mouseExited(MouseEvent event) { 	}
 		public void mousePressed(MouseEvent event) { 	}
 		public void mouseReleased(MouseEvent event) { 	}
-
 	}
 
 	GameBoard() {
