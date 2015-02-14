@@ -12,7 +12,7 @@
 # lab 5.3
 
 1. Design a `Map` container that utilizes everything we've done so far.
-   (a) has a add method: `add(key,value)`
-   (b) has exist method: `has(key)`
+   (a) has an add method: `add(key,value)`
+   (b) has an exist method: `has(key)`
    (c) has a get method: `get(key)`
-   (d) has remove method: `remove(key)`
+   (d) has a remove method: `remove(key)`
