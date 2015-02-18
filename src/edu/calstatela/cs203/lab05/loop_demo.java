@@ -1,4 +1,4 @@
-package edu.calstatela.cs203.lab5;
+package edu.calstatela.cs203.lab05;
 
 public class loop_demo {
 	public static void main(String[] args) {

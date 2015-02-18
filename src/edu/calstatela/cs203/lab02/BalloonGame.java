@@ -28,11 +28,11 @@ public class BalloonGame extends Game {
 	}
 	
 	public static void main(String[] args) {
-		BalloonGame game = new BalloonGame("john");
-		game.start();
-		game.moveBalloons();
-		game.displayInformation();
-		game.stop();
+		// BalloonGame game = new BalloonGame("john");
+		// game.start();
+		// game.moveBalloons();
+		// game.displayInformation();
+		// game.stop();
 	}
 
 

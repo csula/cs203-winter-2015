@@ -1,7 +1,7 @@
-package edu.calstatela.cs203.lab5;
+package edu.calstatela.cs203.lab05;
 
-public class ListContainer {
-	ListNode head = null;
+public class ListContainer extends Container {
+	private ListNode head = null;
 	
 	public static void main(String args[]) {
 		ListContainer lc = new ListContainer();
@@ -9,10 +9,20 @@ public class ListContainer {
 			lc.add( new ListNode(new Balloon()) );
 		}
 		
-		System.out.println(lc.hasNode("1"));
+		System.out.println(lc.has("1"));
 	}
 	
-	public boolean hasNode(String name) {
+	public boolean has(String name) {
+		ListNode currentPtr = head;
+		while (currentPtr != null) {
+			
+			if (currentPtr.object.toString().equals(name)) {
+				return true;
+			}
+			
+			currentPtr = currentPtr.next;
+		}
+		
 		return false;
 	}
 	
@@ -24,11 +34,12 @@ public class ListContainer {
 		append(node);
 	}
 	
-	public void delete(String name) {
-		// search the list compare object.toString() with name and delete accordingly
+	public void remove(String name) {
+		// search the list compare object.toString() 
+		// with name and delete accordingly
 	}
 	
-	private void append(ListNode node) {
+	protected void append(ListNode node) {
 		ListNode currentPtr = head;
 		while (currentPtr.next != null) {
 			currentPtr = currentPtr.next;
@@ -36,8 +47,16 @@ public class ListContainer {
 		currentPtr.next = node;
 	}
 	
-	private void insert(ListNode node) {
+	protected void insert(ListNode node) {
 		node.next = head;
 		head = node;
+	}
+
+	public Object remove_from_front() {
+		return null;
+	}
+
+	public Object remove_from_back() {
+		return null;
 	}
 }
