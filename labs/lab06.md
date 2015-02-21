@@ -16,3 +16,10 @@ We note that:
 1. Write the code to get the time of day
 2. For every 10,000 balloons being created print the time
 3. Plot N versus time
+
+# lab 6.3 utilizing a tree map in your code
+
+1. Let us assume that the balloons are stored in a huge cage
+2. Let us also assume that the balloons each have a random radius and a random color
+3. We will also need to calculate the average balloon size
+4. We will need to count up the colors of each balloons being generated
