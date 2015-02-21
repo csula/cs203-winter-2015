@@ -16,4 +16,3 @@ We note that:
 1. Write the code to get the time of day
 2. For every 10,000 balloons being created print the time
 3. Plot N versus time
-4. 
