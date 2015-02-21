@@ -8,3 +8,5 @@
 2. This id is generated using UUID.
 3. We need to make sure that the id is unique before assigning it to the balloon.
 
+Note also that our approach to maintaining a list of unique uuid's is naive as we shall use an arraylist.
+
