@@ -18,6 +18,7 @@ class IdCollection {
 			if (!found) {
 				id = key;
 				ids.add(key);
+				done = true;
 			}
 		} while (!done);
 		
@@ -40,13 +41,13 @@ public class Balloon {
 
 	public static void main(String[] args) {
 		java.util.ArrayList<Balloon> list = new java.util.ArrayList<Balloon>();
+		long startTime = System.currentTimeMillis();
 
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10000; i++) {
 			list.add(new Balloon());
 		}
-
-		for (Balloon b : list) {
-			System.out.println(b);
-		}
+		
+		long endTime = System.currentTimeMillis();
+		System.out.println("elapsed time = " + (endTime - startTime));
 	}
 }
