@@ -23,3 +23,8 @@ We note that:
 2. Let us also assume that the balloons each have a random radius and a random color
 3. We will also need to calculate the average balloon size
 4. We will need to count up the colors of each balloons being generated
+5. We want to plot our access time on the tree
+   a. generate 10,000 balloons
+   b. pick one random id and search for the balloon
+   c. save the time
+   d. repeat for 20,000 balloons (same deal)
