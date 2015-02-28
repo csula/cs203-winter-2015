@@ -74,4 +74,3 @@ public class CircularStringQueue extends CircularQueue {
 
 2. The three possible time complexity for accessing a map key are _O(n)_, _O(log n)_ and _O(c)_ .  Provide an explanation as to why this case.
 
-3. What are the two essential aspects of 
