@@ -6,13 +6,13 @@ Consider the following Java program:
 
 ```java
 public class Table {
-   Map<String,String> table = new HashMap<String,String>();
+   static Map<String,String> table = new HashMap<String,String>();
   
-   public void printGoodGuys() {
+   public static void printGoodGuys() {
       /* print the names of the good guys only */
    }
 
-   public void printBadGuys() {
+   public static void printBadGuys() {
       /* print the names of the bad guys only */
    }
 
