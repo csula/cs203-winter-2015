@@ -27,7 +27,7 @@ class IdCollection {
 	private java.util.ArrayList<String> ids = new java.util.ArrayList<String>();
 }
 
-public class Balloon {
+public class Balloon implements Comparable {
 	String id;
 	private static IdCollection idCollection = new IdCollection();
 	double radius;
@@ -39,11 +39,51 @@ public class Balloon {
 		color = (int)(Math.random() * 100);
 	}
 
+	public int compareTo(Object other) {
+		Balloon otherBalloon = (Balloon) other;
+		if (color == otherBalloon.color) { 
+			return 0;
+		} else if (color > otherBalloon.color) {
+			return 1;
+		} else {
+			return -1;
+		}
+	}
+
 	public String toString() {
 		return id + "" + " color = " + color + " radius = " + radius;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
+		java.util.TreeSet<Balloon> set = new java.util.TreeSet<Balloon>();
+		for (int i = 0; i < 10; i++) {
+			set.add(new Balloon());
+		}
+		
+		for (Balloon b : set) {
+			System.out.println(b);
+		}
+	}
+	
+	public static void main4(String[] args) {
+		java.util.ArrayList<Balloon> list = new java.util.ArrayList<Balloon>();
+		java.util.TreeMap<Double,Balloon> radiusTable = new java.util.TreeMap<Double,Balloon>();
+		
+		for (int i = 0; i < 10; i++) {
+			list.add(new Balloon());
+		}
+		
+		for (Balloon b : list) {
+			Double key = b.radius;
+			radiusTable.put(key, b);
+		}
+		
+		for (Double key : radiusTable.keySet()) {
+			System.out.printf("k = %f => v = %s\n", key, radiusTable.get(key));
+		}
+	}
+	
+	public static void main3(String[] args) {
 		java.util.ArrayList<Balloon> list = new java.util.ArrayList<Balloon>();
 		java.util.TreeMap<Integer,Integer> countTable = new java.util.TreeMap<Integer,Integer>();
 		
@@ -87,4 +127,5 @@ public class Balloon {
 			System.out.println(n + " " + time);
 		}
 	}
+
 }
