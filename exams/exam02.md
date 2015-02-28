@@ -72,5 +72,5 @@ public class CircularStringQueue extends CircularQueue {
 
 1. In the `CircularStringQueue` program, please estimate the time complexity for insert (enqueue), remove (dequeue), rotate left, and rotate right.   Show (discuss) your work for credit.
 
-2. The three possible time complexity for accessing a map key are _O(n)_, _O(log n)_ and _O(c)_ .  Provide an explanation as to why this case.
+2. The three possible time complexity for accessing a map key are _O(n)_, _O(log n)_ and _O(c)_ .  Provide an explanation as to why this is the case.
 
