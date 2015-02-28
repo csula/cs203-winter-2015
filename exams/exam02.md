@@ -39,7 +39,7 @@ Consider an abstract class `CircularQueue` defined as followed:
 ```java
 public abstract class CircularQueue {
    public abstract void Enqueue(Object *object);
-   public abstract Object* Dequeue(Object *object);
+   public abstract Object* Dequeue();
    public abstract void RotateLeft();
    public abstract void RotateRight();
    public abstract void print();
