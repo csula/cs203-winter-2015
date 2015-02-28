@@ -1,3 +1,5 @@
+# Exam 1
+
 1. Please write a program as followed:
 
    (a) Create a dice class that has a method `roll()` which randomly generates a number between 1 and 6.  This is a magic dice class therefore it remembers the  roll value.
