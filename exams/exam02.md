@@ -59,10 +59,10 @@ public class CircularStringQueue extends CircularQueue {
      cq.Enqueue("b"); // cq = ["b" "a"]
      cq.Enqueue("c"); // cq = ["c" "b" "a"]
      cq.RotateLeft(); // cq = ["b" "a" "c"]
-     String s1 = cq.Dequeue(); // s1 = "c", cq = ["b" "a"]
+     String s1 = (String) cq.Dequeue(); // s1 = "c", cq = ["b" "a"]
      cq.Enqueue("d"); // cq = ["d" "b" "a"]
      cq.RotateRight(); // cq = ["a" "d" "b"]
-     String s2 = cq.Dequeue(); // s2 = "b", cq = ["a" "d"]
+     String s2 = (String) cq.Dequeue(); // s2 = "b", cq = ["a" "d"]
      cq.Print();
   }
 }
