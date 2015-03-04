@@ -1,10 +1,18 @@
 # lab 7
 
-# lab 7.1: implement the insertion sort algorithm
+# lab 7.1: Insertion Sort
 
-# lab 7.2: implement the merge sort algorithm
+Implement the insertion sort algorithm.
 
-# lab 7.3: implement the quicksort algorithm
+# lab 7.2: Merge Sort
 
-# lab 7.4: Modify `Reader.java` such it it reads in data from a text file of any size and performs word count
+Implement the merge sort algorithm.
+
+# lab 7.3: Quick Sort
+
+Implement the quick sort algorithm
+
+# lab 7.4: Reader
+
+Modify `Reader.java` such it it reads in data from a text file of any size and performs word count on the body of text.
 
