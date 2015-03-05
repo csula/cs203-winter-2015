@@ -10,7 +10,7 @@ For this homework assignment, we will apply the concepts of Object-Oriented Prog
 
 ## Homework 2
 
-For this homework assignment, we will continue to developing our game.  The game will include features such as recursive programming, complex datastructure (e.g. lists, stacks, queues, sets, and maps).
+For this homework assignment, we will continue to developing our game.  The game will include features such as recursive programming, complex datastructure (e.g. lists, stacks, queues, sets, and maps).  For more information, please refer to [homework01.md](https://github.com/csula/cs203-winter-2015/blob/master/homework02.md).
 
 ## Homework 3
 
