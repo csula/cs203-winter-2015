@@ -2,22 +2,48 @@
 
 ## Objective
 
-We've discussed containers extensively in class. In principle, containers are designed to hold "things" and they should be fairly general.  By choosing and designing containers carefully we can more effectively write software.  What's more we can estimate the performance of our code.
+The objective of this program is for you to write a program that read text files and performs statistical analysis on the text files.  The goal here is to calculate similar traits (if any between the text).  We will limit the complexity of our analysis to purely statistical evidence.  In other words, while it might be desirable to perform complex similarity analysis, it is beyond the scope of this course.
+
+Your code will read 3 text files into memory.  For each text file, it will calculate the following information:
+
+1. Number of unique words in the text.
+2. Top 10% frequently words.  For example if a document has 1000 unique words, your progrm will display 100 most frequently occuring words
+3. Top 10% infrequently words; similarly, your program will display 100 least frequently occuring words.
+
+Your code will also print out similarities between the documents:
+
+1. Similarity of top 10% frequently appearing words against the other two documents
+2. Similarity of top 10% infrequently appearing words against the other two documents
+
+For example:
+
+```
+"document a" <=> "document b"
+  top 10% frequently appearing: 3 words
+     apple, orange, banana
+  top 10% infrequently appearing: 1 word
+     robert
+"document b" <=> "document c"
+  top 10% frequently appearing: 2 words
+     mouse, house
+  top 10% infrequently appearing: 1 word
+     james
+"document a" <=> "document c"
+  top 10% frequently appearing: 5 words
+     apple, orange, banana, sugar, orange
+  top 10% infrequently appearing: 2 word
+     james, michael
+```
 
 ## What to code
 
-You will update your balloon game.  This time, instead of popping the individual balloons.  You will select a number of balloons using a square box.  How you implement the square box is up to you.  Once the balloons have been selected they are transfered into a separate container (not yet displayed).
+You will write a Java program that will read in three files from the command line:
 
-Your program will provide the option to show these containers when all the balloons from the original container has been selected.
-
-Your program will note the time that it takes to select and move X balloons from the larger container to the smaller container.  Note that the number of balloons in the larger container will be in the 10's of thousands.  It's not possible therefore to show all of the balloons so you will have to randomly show some of the balloons.
-
-You can come up with some strategy as to what is shown and what is not shown.  The "net" which grabs the balloons will only grab the visible balloons -- thus making this an even more challenging game.  Note however that the balloons are all drifting simultaneously.
-
-Finally, you should change the window size so that the play canvas is larger than what has been used and that you can fix the radius of the balloons to be something small ~10 or less.
+```java
+java -jar homework2.jar "file 1.txt" "file 2.txt" "file 3.txt"
+```
 
 ## What to turn in
 
-You will demo the game in class.
-
+You will demonstrate your homework assignment in class.  Note that these are individual assignments.  If you have questions, please direct them to the instructor.
 
