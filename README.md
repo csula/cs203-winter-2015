@@ -12,15 +12,6 @@ For this homework assignment, we will apply the concepts of Object-Oriented Prog
 
 For this homework assignment, we will continue to developing our game.  The game will include features such as recursive programming, complex datastructure (e.g. lists, stacks, queues, sets, and maps).  For more information, please refer to [homework02.md](https://github.com/csula/cs203-winter-2015/blob/master/assignments/homework02.md).
 
-## Homework 3
+## Homework 3 & 4
 
-For this homework assignment, we will implement the sorting and searching algorithms.  We will also take measurements to study their performance.  We compare our measurement against the theoretical performance.
-
-## Homework 4
-
-For this homework assginment, we will implement a simple graph algorithm.  The graph algorithm performs a BFS and DFS search on a given graph.
-
-## Final Project
-
-For the final project, your team will take one of the four homework assignments and build additional features.  These features should demonstrate that you undertand the underlying challenges of computer algorithms and datastructure.
-
+Homework 3 & 4 are combined into a single assignment.  Please refer to : [homework03.md](https://github.com/csula/cs203-winter-2015/blob/master/assignments/homework03.md)
