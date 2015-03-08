@@ -51,11 +51,32 @@ Where 5 is the root node.  8 is the right child of 5, 2 is the left child of 5, 
 
 Your program will also perform an (a) in-order traversal (b) pre-order traversal, and (c) post-order traversal to print out the nodes.
 
+Your program will be executed as followed:
+
+```
+java exam3.tree <tree file>
+```
+
+The output for the above tree would be:
+
+```
+pre-order: 5 2 4 8 6
+in-order: 2 4 5 6 8
+post-order: 4 2 6 8 5
+```
+```
+
 ### Multithread program
 
 Write a program that reads in words from a text file.  The words can be stored in any container of your choice (Tree, Hash, Array, etc).  
 
 Your program will create 26 threads.  With thread 1 being responsible for the words that begins with the letter a, thread 2 begin responsible for the letter b, etc.  Each thread is responsible for tallying up how many words in the collection that starts with the letter for which it is responsible.
+
+Your program will be executed as followed:
+
+```
+java exam3.wordcount <text file>
+```
 
 The program will print out something as followed:
 
