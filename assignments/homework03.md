@@ -4,7 +4,7 @@
 
 There are three parts to this homework assignment.  First you will implement a graph algorithm.  Second, you will implement a tree algorithm, and finally you will implement a multithread program.
 
-### Graph Alogorithm
+### Graph Algorithm
 
 Write a java program that reads in graph file of the following format: `<node> <neighbor> <weight> <neighbor> <weight> ... <neighbor> <weight>`.  For example:
 
