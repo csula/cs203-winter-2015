@@ -64,7 +64,6 @@ pre-order: 5 2 4 8 6
 in-order: 2 4 5 6 8
 post-order: 4 2 6 8 5
 ```
-```
 
 ### Multithread program
 
