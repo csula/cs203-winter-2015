@@ -1,4 +1,4 @@
-package exam3;
+package exam3.Graph;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package exam3;
+package exam3.Graph;
 
 public class Edge {
 	double weight;
