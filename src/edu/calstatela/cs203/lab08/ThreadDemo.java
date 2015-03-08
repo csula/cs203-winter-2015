@@ -84,5 +84,4 @@ public class ThreadDemo implements CONSTANTS {
         }
         return a;
     }
-
 }
