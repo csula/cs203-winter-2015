@@ -4,37 +4,29 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Node {
+class Vertex {
 	String name;
 	boolean visited = false;
-	ArrayList<Node> children = new ArrayList<Node>();
+	ArrayList<Vertex> neighbors = new ArrayList<Vertex>();
 	
 	public String toString() { return "(" + name + ":" + visited + ")"; }
-	public Node(String name) { this.name = name; }
+	public Vertex(String name) { this.name = name; }
 }
 
 public class BFS {
 
-	Node root = new Node("root");
-	
-	public static void main(String[] args) {
-		BFS b = new BFS();
-		b.bfs();
-		b.bfs();
-	}
-
-	public void bfs() {
-		Queue<Node> queue = new LinkedList<Node>();
-		queue.add( root );
-		System.out.println( root );
-		root.visited = true;
+	public void bfs(Vertex start, Vertex end) {
+		Queue<Vertex> queue = new LinkedList<Vertex>();
+		queue.add(start);
+		System.out.println(start);
+		start.visited = true;
 		while(queue.isEmpty() == false) {
-			Node node = queue.remove();
-			for (Node child : node.children) {
-				if (child.visited == false) {
-					child.visited = true;
-					System.out.println( child );
-					queue.add( child );
+			Vertex node = queue.remove();
+			for (Vertex neighbor : node.neighbors) {
+				if (neighbor.visited == false) {
+					neighbor.visited = true;
+					System.out.println(neighbor);
+					queue.add(neighbor);
 				}
 			}
 		}
