@@ -14,14 +14,14 @@ Write a java program that reads in graph file of the following format: `<node> <
 3 1 1.0
 ```
 
-Once the graph has been read into memory, you will calculate and print the totatl distance between two nodes.  You do not need to implement the A* algorithm.  A simple breath first search or depth first algorithm will do.  
+Once the graph has been read into memory, you will calculate and print the total distance between two nodes.  You do not need to implement the A* algorithm.  A simple breath first search or depth first algorithm will do.  
 
 Your program should be executed as followed:
 
 ```
 java homework3.graph <graph file> <start node> <end node>
 ```
-Hint 1: in order to ensure that a node has not been visited, you will need to add a `boolean visited;` flag of some sort.
+Hint 1: in order to ensure that a node has not been visited, you will need to add a `visited` (of type `boolean`) flag of some sort.
 
 Hint 2: you should print out the entire path for easier debugging.
 
