@@ -8,8 +8,7 @@ public class Graph {
 	
 	public Graph(String filename) {
 		// The constructor reads the contents of filename into the graph
-		// Warnings: don't double count the edges when adding
-		//           be careful with vertex number labeling
+		// Warnings: don't double count the edges when adding be careful with vertex number labeling
 		
 		// 1. read into ArrayList<String> lines
 		
